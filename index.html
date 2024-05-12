@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./frontend/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <title>Document</title>
 </head>
@@ -13,9 +13,9 @@
             <div class="name">NETFLIX</div>
             <div class="profile_d">
                 <div class="i">
-                    <img class="img_avt" src="./avt.jpg"  alt="avata"/>
+                    <img class="img_avt" src="https://luongvanluyenb21dccn504.onrender.com/public/avt.jpg"  alt="avata"/>
                 </div>
-                <div class="i">Name</div>
+                <div class="i">Lương Luyện</div>
                 <div class="i">Change profile</div>
                 <div class="i">Settings</div>
             </div>
@@ -58,25 +58,33 @@
             <h4 style="color: red;">New</h4>
             <div class="history_item">
                 <div>
-                    <img class="img_h"  src="./1.jpg" alt="history"/>
+                    <img class="img_h"  src="https://luongvanluyenb21dccn504.onrender.com/public/1.jpg" alt="history"/>
                 </div>
                 <div>
-                    <img class="img_h"  src="./2.jpg" alt="history"/>
+                    <img class="img_h"  src="https://luongvanluyenb21dccn504.onrender.com/public/2.jpg" alt="history"/>
                 </div>
                 <div>
-                    <img class="img_h" src="./3.jpg" alt="history"/>
+                    <img class="img_h" src="https://luongvanluyenb21dccn504.onrender.com/public/3.jpg" alt="history"/>
                 </div>
                 <div>
-                    <img class="img_h" src="./4.jpg" alt="history"/>
+                    <img class="img_h" src="https://luongvanluyenb21dccn504.onrender.com/public/4.jpg" alt="history"/>
                 </div>
                 <div>
-                    <img class="img_h"  src="./5.jpg" alt="history"/>
+                    <img class="img_h"  src="https://luongvanluyenb21dccn504.onrender.com/public/5.jpg" alt="history"/>
                 </div>
                 <div>
-                    <img class="img_h"  src="./6.jpg" alt="history"/>
+                    <img class="img_h"  src="https://luongvanluyenb21dccn504.onrender.com/public/6.jpg" alt="history"/>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        let fetchedData;
+        fetch('https://luongvanluyenb21dccn504.onrender.com/api/user/66402677ef447806bec609c6')
+        .then(data => {
+            fetchedData = data;
+        })
+    </script>
+    
 </body>
 </html>
