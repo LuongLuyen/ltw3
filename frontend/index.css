@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+.active {
+    color: red;
+}
+.profile {
+    background-color: #2f1e1e;
+    width: 20%;
+    height: 100vh;
+    color: #fff;
+}
+.history {
+    background-color: rgb(76, 16, 16);
+    width: 80%;
+    color: #fff;
+    height: 100vh;
+    padding-left: 20px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.name_hi {
+    margin: 10px;
+    width: 80%;
+}
+.ha {
+    margin-bottom: 80px;
+}
+.history_item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_h {
+    margin: 10px;
+    width: 70%;
+}
+.content {
+    display: flex;
+}
+.img_avt {
+    width: 40%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.profile_page-item {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.name {
+    color: red;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.profile_d {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.i {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+.n {
+    margin-left: 10px;
+}
